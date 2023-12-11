@@ -1,0 +1,271 @@
+.header {
+    position: relative;
+    width: 1440px;
+    height: 924px;
+    background-color: #f9f9f9;
+  }
+  
+  .header .overlap-group {
+    position: relative;
+    height: 892px;
+  }
+  
+  .header .background {
+    position: absolute;
+    width: 1440px;
+    height: 793px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .header .container {
+    display: flex;
+    flex-direction: column;
+    width: 1046px;
+    align-items: flex-start;
+    gap: 80px;
+    padding: 80px 0px;
+    position: absolute;
+    top: 104px;
+    left: 197px;
+  }
+  
+  .header .row {
+    gap: 120px;
+    margin-right: -93px;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .header .col-md {
+    display: inline-flex;
+    gap: 35px;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+  }
+  
+  .header .h {
+    position: relative;
+    width: 502.25px;
+    flex: 0 0 auto;
+  }
+  
+  .header .text-wrapper {
+    position: relative;
+    width: fit-content;
+    font-family: var(--h-4-font-family);
+    font-weight: var(--h-4-font-weight);
+    color: var(--second-text-color);
+    font-size: var(--h-4-font-size);
+    letter-spacing: var(--h-4-letter-spacing);
+    line-height: var(--h-4-line-height);
+    font-style: var(--h-4-font-style);
+  }
+  
+  .header .cta {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .header .button-btn-primary {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 36px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: var(--primary-color);
+    border-radius: 37px;
+    overflow: hidden;
+  }
+  
+  .header .btn-text {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--btn-text-font-family);
+    font-weight: var(--btn-text-font-weight);
+    color: var(--light-text-color);
+    font-size: var(--btn-text-font-size);
+    text-align: center;
+    letter-spacing: var(--btn-text-letter-spacing);
+    line-height: var(--btn-text-line-height);
+    white-space: nowrap;
+    font-style: var(--btn-text-font-style);
+  }
+  
+  .header .btn-text-wrapper {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 36px;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 37px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: var(--secondary-color-1);
+    all: unset;
+    box-sizing: border-box;
+  }
+  
+  .header .div {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--btn-text-font-family);
+    font-weight: var(--btn-text-font-weight);
+    color: var(--secondary-color-1);
+    font-size: var(--btn-text-font-size);
+    text-align: center;
+    letter-spacing: var(--btn-text-letter-spacing);
+    line-height: var(--btn-text-line-height);
+    white-space: nowrap;
+    font-style: var(--btn-text-font-style);
+    all: unset;
+    box-sizing: border-box;
+  }
+  
+  .header .col-md-2 {
+    position: relative;
+    width: 510px;
+  }
+  
+  .header .row-2 {
+    gap: 30px;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .header .card-item-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 328px;
+    align-items: flex-start;
+    position: relative;
+  }
+  
+  .header .card-item {
+    display: flex;
+    flex-direction: column;
+    width: 328px;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 35px 40px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #ffffff;
+    box-shadow: var(--SHADOW);
+  }
+  
+  .header .icn-settings-icn-lg {
+    position: relative;
+    width: 48px;
+    height: 48px;
+  }
+  
+  .header .h-2 {
+    color: var(--text-color);
+    position: relative;
+    width: fit-content;
+    font-family: var(--h-3-font-family);
+    font-weight: var(--h-3-font-weight);
+    font-size: var(--h-3-font-size);
+    letter-spacing: var(--h-3-letter-spacing);
+    line-height: var(--h-3-line-height);
+    white-space: nowrap;
+    font-style: var(--h-3-font-style);
+  }
+  
+  .header .paragraph {
+    color: var(--second-text-color);
+    position: relative;
+    width: fit-content;
+    font-family: var(--paragraph-font-family);
+    font-weight: var(--paragraph-font-weight);
+    font-size: var(--paragraph-font-size);
+    letter-spacing: var(--paragraph-letter-spacing);
+    line-height: var(--paragraph-line-height);
+    font-style: var(--paragraph-font-style);
+  }
+  
+  .header .div-wrapper {
+    display: flex;
+    width: 329px;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+  }
+  
+  .header .h-3 {
+    margin-right: -19px;
+    color: var(--text-color);
+    position: relative;
+    width: fit-content;
+    font-family: var(--h-3-font-family);
+    font-weight: var(--h-3-font-weight);
+    font-size: var(--h-3-font-size);
+    letter-spacing: var(--h-3-letter-spacing);
+    line-height: var(--h-3-line-height);
+    white-space: nowrap;
+    font-style: var(--h-3-font-style);
+  }
+  
+  .header .card-item-2 {
+    display: flex;
+    flex-direction: column;
+    width: 328px;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 35px 40px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: var(--secondary-color-1);
+    box-shadow: var(--SHADOW);
+  }
+  
+  .header .h-4 {
+    color: var(--light-text-color);
+    position: relative;
+    width: fit-content;
+    font-family: var(--h-3-font-family);
+    font-weight: var(--h-3-font-weight);
+    font-size: var(--h-3-font-size);
+    letter-spacing: var(--h-3-letter-spacing);
+    line-height: var(--h-3-line-height);
+    white-space: nowrap;
+    font-style: var(--h-3-font-style);
+  }
+  
+  .header .p {
+    color: var(--light-text-color);
+    position: relative;
+    width: fit-content;
+    font-family: var(--paragraph-font-family);
+    font-weight: var(--paragraph-font-weight);
+    font-size: var(--paragraph-font-size);
+    letter-spacing: var(--paragraph-letter-spacing);
+    line-height: var(--paragraph-line-height);
+    font-style: var(--paragraph-font-style);
+  }
+  
+  .header .navbar-style {
+    position: absolute;
+    width: 1322px;
+    height: 104px;
+    top: 0;
+    left: 59px;
+  }
+  
